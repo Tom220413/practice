@@ -1,0 +1,28 @@
+2022-08-28 11:10:25,512  WARNING warn message
+2022-08-28 11:10:25,515    ERROR error message
+2022-08-28 15:24:46,712    ERROR 'str' object has no attribute 'decode'
+2022-08-28 15:49:36,674    ERROR name 'base64' is not defined
+2022-08-28 15:52:30,278    ERROR 'utf-8' codec can't decode byte 0x9e in position 8: invalid start byte
+2022-08-28 15:56:20,911    ERROR 'utf-8' codec can't decode byte 0x9e in position 8: invalid start byte
+2022-08-28 15:57:09,541    ERROR name 'word' is not defined
+2022-08-28 16:25:47,742    ERROR name 'pattern' is not defined
+2022-08-28 16:26:50,948    ERROR multiple repeat at position 880 (line 48, column 2)
+2022-08-28 16:39:42,087    ERROR 'utf-8' codec can't decode byte 0x9e in position 8: invalid start byte
+2022-08-28 16:43:06,910    ERROR 'utf-8' codec can't decode byte 0x9e in position 8: invalid start byte
+2022-08-28 16:46:44,051    ERROR 'utf-8' codec can't decode byte 0x9e in position 8: invalid start byte
+2022-08-30 22:45:34,964    ERROR unknown encoding: None
+2022-08-30 23:27:40,287    ERROR 'shift_jis' codec can't decode byte 0x89 in position 20: illegal multibyte sequence
+2022-08-30 23:35:24,091    ERROR 'shift_jis' codec can't decode byte 0x89 in position 20: illegal multibyte sequence
+2022-08-30 23:37:50,941    ERROR 'shift_jis' codec can't decode byte 0x89 in position 20: illegal multibyte sequence
+2022-08-30 23:39:33,183    ERROR 'ascii' codec can't decode byte 0xda in position 3: ordinal not in range(128)
+2022-08-30 23:40:25,877    ERROR 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-08-30 23:41:04,460    ERROR 'utf-16-le' codec can't decode bytes in position 2-3: illegal UTF-16 surrogate
+2022-08-30 23:42:53,802    ERROR 'str' object has no attribute 'decode'
+2022-08-30 23:44:18,486    ERROR 'str' object has no attribute 'decode'
+2022-08-30 23:47:11,516    ERROR 'str' object has no attribute 'decode'
+2022-08-30 23:50:30,531    ERROR 'str' object has no attribute 'decode'
+2022-08-30 23:52:39,879    ERROR 'str' object has no attribute 'decode'
+2022-08-30 23:59:21,491    ERROR Invalid base64-encoded string: number of data characters (1233) cannot be 1 more than a multiple of 4
+2022-09-11 14:27:45,445    ERROR Invalid base64-encoded string: number of data characters (1233) cannot be 1 more than a multiple of 4
+2022-09-11 14:42:16,786    ERROR 'str' object has no attribute 'codecs'
+2022-09-11 15:12:06,322    ERROR name 'data' is not defined
