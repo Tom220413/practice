@@ -41,9 +41,8 @@ def load_compass():
 
 def put_spredsheet():
     result = load_compass()
-    
-    
     print('スプレッドに記入できた')
+    #アホ毛
 
 def send_slack():
     print('Slackにも通知したよ')
