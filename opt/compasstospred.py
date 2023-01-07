@@ -43,10 +43,15 @@ def load_compass():
 
 def put_spredsheet():
     result = load_compass()
+<<<<<<< HEAD
     # 変更してみた
 
     print("スプレッドに記入できた")
 
+=======
+    print('スプレッドに記入できた')
+    #アホ毛
+>>>>>>> refs/remotes/origin/master
 
 def send_slack():
     print("Slackにも通知したよ")
