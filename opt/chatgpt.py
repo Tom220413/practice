@@ -1,0 +1,3 @@
+improt openai
+
+KEY = ""

@@ -1,0 +1,9 @@
+.DS_Store
+.terraform
+.work
+node_modules
+*.pem
+*.env
+*.pyc
+package.zip
+setting.json

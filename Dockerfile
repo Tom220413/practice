@@ -26,3 +26,4 @@ RUN pip install google-api-python-client
 RUN pip install docopt
 RUN pip install lxml
 RUN pip install beautifulsoup4
+RUN pip install chatgpt

@@ -1,7 +1,7 @@
 import codecs
 import requests
 from bs4 import BeautifulSoup
-
+import glob
 
 def load_compass():
     print("登録したいCompassのイベント参加者・申込者一覧ページのURLを入力して")
@@ -43,18 +43,19 @@ def load_compass():
 
 def put_spredsheet():
     result = load_compass()
-<<<<<<< HEAD
-    # 変更してみた
 
     print("スプレッドに記入できた")
+    # アホ毛
 
-=======
-    print('スプレッドに記入できた')
-    #アホ毛
->>>>>>> refs/remotes/origin/master
 
 def send_slack():
     print("Slackにも通知したよ")
 
+def load_csv():
+    dir = '/Users/tomohiro/Desktop/work/Zhienius/test'
+    path_list=glob.glob(dir + '\*')
+    for i in path_list:
+        with open(i) as f:
+            print(f.read())
 
 put_spredsheet()
