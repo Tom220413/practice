@@ -19,7 +19,7 @@ RUN pip install slackweb
 #boto3だけpipで入らないからpip3使う
 RUN pip3 install boto3
 #googleapiを使用するときに使う
-RUN pip install Request
+# RUN pip install Request
 RUN pip install google-auth-oauthlib
 RUN pip install google-auth-httplib2
 RUN pip install google-api-python-client

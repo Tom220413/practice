@@ -1,4 +1,7 @@
 improt openai
+import json
 
-KEY = ""
-print('aa')
+f_in = open("./setting.json", "r")
+settings = json.load(f_in)
+KEY = settings.get("KEY")
+print(KEY)
